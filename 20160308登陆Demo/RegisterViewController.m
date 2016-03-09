@@ -88,6 +88,11 @@
             AFHTTPSessionManager *sessionManger = [AFHTTPSessionManager new];
             NSString *url = @"";
             NSDictionary *parameters = [NSDictionary dictionary];
+//            parameters[@"sign"] = ;
+//            parameters[@"vjson"] = ;
+//            parameters[@"ver"] = ;
+//            parameters[@"cell"]= ;
+            
             NSError *error = nil;
             [sessionManger POST:url parameters:parameters progress:^(NSProgress * _Nonnull uploadProgress)
             {
